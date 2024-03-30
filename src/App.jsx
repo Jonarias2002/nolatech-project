@@ -16,6 +16,7 @@ import pic7 from "./assets/Pic7.png"
 import pic8 from "./assets/Pic8.png"
 import pic9 from "./assets/Pic9.png"
 import pic10 from "./assets/Pic10.png"
+import Content from "./components/Content"
 
 function App() {
   const images = [
@@ -33,31 +34,7 @@ function App() {
       <Counter />
       <Section />
       <Card />
-      <section className="min-h-screen h-screen bg-green-400 flex md:flex-row flex-col items-center">
-        <div className="flex-1">
-          <div className="md:text-left text-white text-center ml-10">
-            <h1 className="md:text-6xl text-2xl md:leading-normal font-bold">
-              Lorem ipsum <br /> dolor sit <br /> amet, <br /> consetetur 
-            </h1>
-            <div>
-              <Button type = "secondary">
-                Lorem ipsum dolor sit amet.
-              </Button>
-            </div>
-            <div className="mt-5">
-              <Button variant="outline" type="tertiary">
-                Lorem ipsum dolor sit amet.
-              </Button>
-            </div>
-          </div>
-        </div>
-        <div className="h-full flex-1" style = {{
-          backgroundImage: `url(${pic5})`,
-          backgroundSize: 'cover'
-        }}>
-
-        </div>
-      </section>
+      <Content/>
       <Videos />
       <Form />
       <Main />
