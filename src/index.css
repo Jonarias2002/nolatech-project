@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-custom-bullet {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #fff;
+    display: block;
+    border-radius: 50px;
+    margin: 0 4px;
+}
+
+.swiper-custom-bullet-active {
+    background-color: #fff;
+}
+
+#rct-swiper-pagination {
+    display: flex;
+    justify-content: center;
+}

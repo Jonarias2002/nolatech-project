@@ -33,27 +33,30 @@ function App() {
       <Counter />
       <Section />
       <Card />
-      <section className="min-h-screen bg-green-400 flex pl-10 py-10 md:flex-row flex-col items-center">
-          <div className="flex-1">
-            <div className="md:text-left text-white text-center ml-10">
-                <h1 className="md:text-6xl text-2xl md:leading-normal font-bold">
-                    Lorem ipsum <br /> dolor sit <br /> amet, <br /> consetetur 
-                </h1>
-                <div>
-                  <Button>
-                    Lorem ipsum dolor sit amet.
-                  </Button>
-                </div>
-                <div className="mt-5">
-                  <Button variant="outline">
-                    Lorem ipsum dolor sit amet.
-                  </Button>
-                </div>
+      <section className="min-h-screen h-screen bg-green-400 flex md:flex-row flex-col items-center">
+        <div className="flex-1">
+          <div className="md:text-left text-white text-center ml-10">
+            <h1 className="md:text-6xl text-2xl md:leading-normal font-bold">
+              Lorem ipsum <br /> dolor sit <br /> amet, <br /> consetetur 
+            </h1>
+            <div>
+              <Button type = "secondary">
+                Lorem ipsum dolor sit amet.
+              </Button>
+            </div>
+            <div className="mt-5">
+              <Button variant="outline" type="tertiary">
+                Lorem ipsum dolor sit amet.
+              </Button>
             </div>
           </div>
-          <div className="flex-1 flex items-center justify-center h-full">
-          <img src={pic5} alt="" className="md:w-12/12 h-full object-cover" />
-          </div>
+        </div>
+        <div className="h-full flex-1" style = {{
+          backgroundImage: `url(${pic5})`,
+          backgroundSize: 'cover'
+        }}>
+
+        </div>
       </section>
       <Videos />
       <Form />

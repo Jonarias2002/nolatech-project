@@ -29,9 +29,7 @@ function Cards({title}) {
         />
       </div>
       <div className="text-white my-8">
-        <Button
-        
-        >
+        <Button>
           View all
         </Button>
       </div>

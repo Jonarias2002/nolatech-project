@@ -4,8 +4,8 @@ import Button from './Button'
 function Main() {
     return (
         <div className="bg-cover bg-center h-screen" style={{ backgroundImage: `url(${pic6})` }}>
-            <div className=' text-black'>
-                <div className='flex-1 items-center justify-start my-10 mx-20'>
+            <div className='flex items-center justify-start text-black h-full'>
+                <div className='  my-10 mx-20'>
                     <h1 className="md:text-6xl text-2xl md:leading-normal font-bold">
                         Lorem ipsum <br />
                         dolor sit.

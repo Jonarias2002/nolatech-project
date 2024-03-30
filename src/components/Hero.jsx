@@ -6,11 +6,13 @@ import Navigation from './Navigation'
 function Hero({ text }) {
     return (
         <div className="bg-cover bg-center h-screen" style={{ backgroundImage: `url(${prb})` }}>
-            <div className='flex py-2 px-5 bg-black'>
+            <div className='flex py-2 px-5' style = {{ 
+                background: 'linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(25,25,25,0.8035132955517289) 14%, rgba(165,165,165,0) 92%, rgba(255,255,255,0) 100%)'
+            }}>
                 <div style={{ width: 200 }}>
                     <img src={icon} />
                 </div>
-                <div className='flex-1 flex items-center justify-end'>
+                <div className='flex-1 flex items-center justify-end sm:hidden md:flex'>
                     <Navigation />
                 </div>
             </div>

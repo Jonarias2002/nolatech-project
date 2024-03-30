@@ -10,7 +10,7 @@ function SocialMedia() {
       <ol className=" text-white">
         <li className="mb-3">
           <a
-            href="https://www.instagram.com/nola_tech/"
+            href="https://www.facebook.com/nola_tech/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -28,7 +28,7 @@ function SocialMedia() {
         </li>
         <li className="mb-3">
           <a
-            href="https://www.instagram.com/nola_tech/"
+            href="https://www.twitter.com/nola_tech/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ function SocialMedia() {
         </li>
         <li className="mb-3">
           <a
-            href="https://www.instagram.com/nola_tech/"
+            href="https://www.youtube.com/nola_tech/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,7 +46,7 @@ function SocialMedia() {
         </li>
         <li className="">
           <a
-            href="https://www.instagram.com/nola_tech/"
+            href="https://www.tiktok.com/nola_tech/"
             target="_blank"
             rel="noopener noreferrer"
           >

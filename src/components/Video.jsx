@@ -1,16 +1,46 @@
-import React from 'react'
 import Title from './Title'
 import Button from './Button'
+import video1 from '..//assets/Pic1.png'
+import video2 from '..//assets/Pic2.png'
+import video3 from '..//assets/Pic8.png'
+import video4 from '..//assets/Pic10.png'
+import video5 from '..//assets/Pic8.png'
+import video6 from '..//assets/Pic9.png'
+import { FaRegCirclePlay } from "react-icons/fa6";
 
-function Videos({ title }) {
+function Videos({ title, image, text }) {
   return (
-    <div>
-      <div className="flex justify-center">
+    <div className='text-center'>
+      <div className="">
         <Title title={"Lastest video"}/>
       </div>
-      <Video 
-      />
-      <div className='flex justify-center'>
+      <div className='flex flex-wrap justify-center gap-5 mt-10'>
+          <Video 
+            image={video1}
+            text={"Lastest video1"}
+          />
+          <Video 
+          image={video2}
+          text={"Lastest video2"}
+          />
+          <Video 
+          image={video3}
+          text={"Lastest video3"}
+          />
+          <Video 
+          image={video4}
+          text={"Lastest video4"}
+          />
+          <Video 
+          image={video5}
+          text={"Lastest video5"}
+          />
+          <Video 
+          image={video6}
+          text={"Lastest video6"}
+          />
+      </div>
+      <div className='my-8'>
         <Button>
           View all
         </Button>
@@ -21,13 +51,24 @@ function Videos({ title }) {
 
 const Video = ({ text, image }) => {
   return (
-    <div className="max-w-sm overflow-hidden">
-      <img 
-        className="w-full" 
-        src={image}
-        alt="Sunset in the mountains"
-      />
-      <p className=''>
+    <div className="basis-1/4 max-w-sm overflow-hidden">
+      <div className='relative'>
+        <img 
+          className="pl-5 opacity-90" 
+          src={image}
+          alt="Sunset in the mountains"
+          style={{
+            aspectRatio: 16/9,
+            objectFit: 'cover',
+          }}
+        />
+        <div className='absolute top-1/2 left-1/2' style = {{
+          transform: 'translateY(-50%)',
+        }}>
+          <FaRegCirclePlay size = {40} color='#FFF'/>
+        </div>
+      </div>
+      <p className='text-black'>
         {text}
       </p>
     </div>
