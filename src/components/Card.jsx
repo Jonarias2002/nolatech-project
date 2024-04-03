@@ -7,14 +7,14 @@ import card3 from '../assets/Pic4.png'
 
 function Cards({title}) {
   return (
-    <div className='text-center bg-gray-1s00 mb-10'>
+    <div className='text-center justify-center bg-gray-1s00 mb-10'>
       <Title title={"lorem ipsum dolor"} />
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus maxime, <br />
         quisquam iste ullam odit possimus modi earum nisi reprehenderit porro sapiente vel, <br /> 
         facilis, quos ut quod magni! Cum nihil perspiciatis aliquam accusantium iure!
       </p>
-      <div className='flex gap-3 justify-center mt-10'>
+      <div className='flex md:flex-row flex-col gap-3 justify-center items-center mt-10'>
         <Card 
         image={card1}
         text={"lorem ipsum dolor"}

@@ -3,7 +3,7 @@ import icon from "../assets/icongrab.png"
 function Footer() {
     return (
         <footer className="py-6">
-            <div className="container mx-auto flex justify-between px-4">
+            <div className="container flex sm:flex-row flex-col sm:justify-center items-center mx-auto justify-between px-4">
                 <div className="w-1/3 text-center">
                 <p className="text-gray-800">
                     Cumque officiis iure voluptatum minus. <br />

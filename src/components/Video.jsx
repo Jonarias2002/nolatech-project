@@ -10,11 +10,11 @@ import { FaRegCirclePlay } from "react-icons/fa6";
 
 function Videos({ title, image, text }) {
   return (
-    <div className='text-center'>
+    <div className='flex flex-col text-center'>
       <div className="">
         <Title title={"Lastest video"}/>
       </div>
-      <div className='flex flex-wrap justify-center gap-5 mt-10'>
+      <div className='flex md:flex-row flex-col flex-wrap justify-center items-center gap-5 mt-10'>
           <Video 
             image={video1}
             text={"Lastest video1"}

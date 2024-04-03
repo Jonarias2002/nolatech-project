@@ -12,7 +12,7 @@ function Hero({ text }) {
                 <div style={{ width: 200 }}>
                     <img src={icon} />
                 </div>
-                <div className='flex-1 flex items-center justify-end sm:hidden md:flex'>
+                <div className='flex-1 flex items-center justify-end sm:hidden md:hidden md:flex'>
                     <Navigation />
                 </div>
             </div>

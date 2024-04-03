@@ -1,10 +1,10 @@
-import Button from './Button';
+import Button from './Button'
 import pic5 from '../assets/Pic5.png'
 
 
 function Content() {
     return (
-        <section className="min-h-screen h-screen bg-green-400 flex md:flex-row flex-col items-center">
+        <section className="min-h-screen h-screen bg-green-400 flex md:flex-row items-center">
             <div className="flex-1">
                 <div className="md:text-left text-white text-center ml-10">
                     <h1 className="md:text-6xl text-2xl md:leading-normal font-bold">
